@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\CourseAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseInfoStud.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseSearch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseSearchStud.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LandingPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LandingPageStud.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RegisterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StudentInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StudentSearch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SubjectAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SubjectInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SubjectSearch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TeacherInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TeacherSearch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UnitAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UnitInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UnitSearch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseInfoStud.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseSearch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseSearchStud.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LandingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LandingPageStud.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StudentInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StudentSearch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SubjectAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SubjectInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SubjectSearch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TeacherInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TeacherSearch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UnitAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UnitInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UnitSearch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

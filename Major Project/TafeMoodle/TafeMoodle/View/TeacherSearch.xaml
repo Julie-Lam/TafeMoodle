@@ -1,0 +1,112 @@
+﻿<Page x:Class="TafeMoodle.View.TeacherSearch"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TafeMoodle.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TeacherSearch"
+      FontFamily="Helvetica">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.ColumnSpan="3"
+                Grid.RowSpan="4"
+                Opacity="0.8">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#7be9f6" Offset="0.0"/>
+                    <GradientStop Color="#f083da" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0">
+            <TextBlock Text="Teacher"
+                       FontSize="30"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       Margin="0 10 0 10"/>
+        </Grid>
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" >
+            <StackPanel Margin="20 0 20 0" Background="MidnightBlue"
+                        >
+                <StackPanel Orientation="Horizontal" Margin="20 0 20 0" 
+                            HorizontalAlignment="Center">
+                    <StackPanel Width="200" Margin="5 0 5 0">
+
+                        <Label Content="Search Teacher: " FontSize="18"
+                               Foreground="White"></Label>
+                        <TextBox x:Name="searchInput"/>
+                    </StackPanel>
+
+                    <StackPanel Width="200" Margin="5 0 5 0">
+                        <Label Content="By: " FontSize="18"
+                               Foreground="White"></Label>
+                        <ComboBox x:Name="searchFilter">
+                            <ComboBoxItem IsSelected="True">Full Name</ComboBoxItem>
+                            <ComboBoxItem>Teacher ID</ComboBoxItem>
+                        </ComboBox>
+
+                        <!--Course name, mode, location-->
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="0 20 0 20" Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+
+                    <StackPanel Margin="0 0 10 0">
+                        <Button x:Name="viewAllTeachsBtn"
+                                Content="View All Teachers"
+                                Click="viewAllTeachsBtn_Click"
+                                />
+                    </StackPanel>
+                    <StackPanel >
+                        <Button x:Name="searchTeachsBtn"
+                            Content="Search Teachers"
+                                Click="searchTeachsBtn_Click"
+                            />
+                    </StackPanel>
+
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2"
+              Margin="20 0 20 0">
+            <DataGrid Name="myDataGrid" 
+                      HorizontalContentAlignment="Stretch"
+                      HorizontalAlignment="Stretch"
+                      CanUserAddRows="False"
+                      SelectionMode="Single"
+                      />
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" 
+              Margin="20 0 20 0">
+
+            <!--<Button Content="Go Back" 
+                    HorizontalAlignment="Left"    
+                    VerticalAlignment="Center"
+                    Padding="10"
+                    />-->
+            <Button Content="See More" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Center"
+                    Padding="10"
+                    x:Name="seeMoreBtn"
+                    Click="seeMoreBtn_Click" />
+        </Grid>
+    </Grid>
+</Page>
