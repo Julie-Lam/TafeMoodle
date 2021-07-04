@@ -664,7 +664,7 @@ namespace TafeMoodle.Data_Access_Layer
 
             foreach (IUser aUser in users)
             {
-                if (aUser.emailUsername == emailUsername && aUser.password == password)
+                if (aUser.emailUsername.ToLower() == emailUsername.ToLower() && aUser.password.ToLower() == password.ToLower())
                 {
                     isCorrectLogin = true;
 

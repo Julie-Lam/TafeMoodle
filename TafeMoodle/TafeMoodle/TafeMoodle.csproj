@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controller\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <None Remove="Controller\**" />
+    <Page Remove="Controller\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Images\DipSoftwareDevImg.jpg" />
     <None Remove="Images\TAFE_Logo.png" />
   </ItemGroup>
@@ -19,10 +26,6 @@
   <ItemGroup>
     <Resource Include="Images\DipSoftwareDevImg.jpg" />
     <Resource Include="Images\TAFE_Logo.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controller\" />
   </ItemGroup>
 
 </Project>

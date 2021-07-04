@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q96bCtriMiTnEfh4W3RwgD201QAL8n89ef2iilyrgoge9PDvoC+XveImU4/tjlzl+eMYeivcSr8tUKb+X5NbGw==",
+  "dgSpecHash": "dZdSY6sdBHj9zsehJPkpiAC1ZMnIl0ucKJB0HTJv8NSgo0DYPO2umfJxG2to7iXTdX1LUR823Irb0VDdtjyj8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lamju\\OneDrive\\Education\\Diploma Of Software Development\\.Advanced C#\\Assessments\\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
+  "projectFilePath": "C:\\Users\\lamju\\Documents\\GitHub\\TafeMoodle\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lamju\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.8.0\\mahapps.metro.iconpacks.material.4.8.0.nupkg.sha512",
     "C:\\Users\\lamju\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

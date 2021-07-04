@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lamju\OneDrive\Education\Diploma Of Software Development\.Advanced C#\Assessments\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\Major Project\TafeMoodle\TafeMoodle\obj\Debug\netcoreapp3.1\
+C:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\obj\Debug\netcoreapp3.1\
 TafeMoodle
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\lamju\OneDrive\Education\Diploma Of Software Development\.Advanced C#\Assessments\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\Major Project\TafeMoodle\TafeMoodle\App.xaml
+C:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\App.xaml
 22652765421
 
 37-70358149
 195735955545
 CustomButtonTheme.xaml;MainWindow.xaml;View\CourseAdd.xaml;View\CourseInfo.xaml;View\CourseInfoStud.xaml;View\CourseSearch.xaml;View\CourseSearchStud.xaml;View\Dashboard.xaml;View\LandingPage.xaml;View\LandingPageStud.xaml;View\LoginPage.xaml;View\RegisterPage.xaml;View\StudentInfo.xaml;View\StudentSearch.xaml;View\SubjectAdd.xaml;View\SubjectInfo.xaml;View\SubjectSearch.xaml;View\TeacherInfo.xaml;View\TeacherSearch.xaml;View\UnitAdd.xaml;View\UnitInfo.xaml;View\UnitSearch.xaml;
 
-True
+False
 

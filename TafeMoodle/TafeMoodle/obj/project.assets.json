@@ -526,11 +526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lamju\\OneDrive\\Education\\Diploma Of Software Development\\.Advanced C#\\Assessments\\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
+      "projectUniqueName": "C:\\Users\\lamju\\Documents\\GitHub\\TafeMoodle\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
       "projectName": "TafeMoodle",
-      "projectPath": "C:\\Users\\lamju\\OneDrive\\Education\\Diploma Of Software Development\\.Advanced C#\\Assessments\\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
+      "projectPath": "C:\\Users\\lamju\\Documents\\GitHub\\TafeMoodle\\Major Project\\TafeMoodle\\TafeMoodle\\TafeMoodle.csproj",
       "packagesPath": "C:\\Users\\lamju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lamju\\OneDrive\\Education\\Diploma Of Software Development\\.Advanced C#\\Assessments\\ICTPRG418 ICTPRG523 ICTICT403 ICTPRG529 ICTPRG520\\Major Project\\TafeMoodle\\TafeMoodle\\obj\\",
+      "outputPath": "C:\\Users\\lamju\\Documents\\GitHub\\TafeMoodle\\Major Project\\TafeMoodle\\TafeMoodle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -590,7 +590,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
