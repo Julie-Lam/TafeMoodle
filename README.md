@@ -4,7 +4,7 @@ A desktop application that allow users to register as either a teacher or a stud
 # How To Set Up (Important!):
 Please follow the steps below before attempting to launch the TafeMoodle app. You must first generate the database schema in your local SQL Express instance to allow this application to function as intended.  
 
-1. Open and run the SQL script file located at:  on Microsoft SQL Server Management Studio
+1. Open and run the SQL script file located at: TafeMoodle/TafeMoodle/generateTafeMoodle.sql on Microsoft SQL Server Management Studio
 2. Open the exe file located at: TafeMoodle/TafeMoodle/TafeMoodle/bin/Debug/netcoreapp3.1/TafeMoodle.exe 
 
 # How to Open the Application in Visual Studio 
