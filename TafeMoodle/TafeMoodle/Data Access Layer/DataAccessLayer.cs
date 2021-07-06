@@ -14,10 +14,10 @@ namespace TafeMoodle.Data_Access_Layer
         private SqlConnection connectToDB()
         {
             //Laptop 
-            string connStr = "Data Source=DESKTOP-I9SH45G;Initial Catalog=TafeMoodle;Integrated Security=True;";
+            //string connStr = "Data Source=localhost;Initial Catalog=TafeMoodle;Integrated Security=True;";
 
             //Comp
-            //string connStr = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=TafeMoodle;Integrated Security=True;";
+            string connStr = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=TafeMoodle;Integrated Security=True;";
 
             SqlConnection sqlConn = new SqlConnection(connStr);
 
