@@ -141,7 +141,7 @@ namespace TafeMoodle.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TafeMoodle;component/view/unitadd.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TafeMoodle;V1.0.0.0;component/view/unitadd.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\UnitAdd.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

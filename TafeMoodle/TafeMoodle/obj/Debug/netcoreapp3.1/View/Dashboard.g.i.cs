@@ -93,7 +93,7 @@ namespace TafeMoodle.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TafeMoodle;component/view/dashboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TafeMoodle;V1.0.0.0;component/view/dashboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Dashboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,20 +1,20 @@
 ﻿TafeMoodle
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\obj\Debug\netcoreapp3.1\
+c:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\obj\Debug\netcoreapp3.1\
 TafeMoodle
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\App.xaml
+c:\Users\lamju\Documents\GitHub\TafeMoodle\Major Project\TafeMoodle\TafeMoodle\App.xaml
 22652765421
 
-35-745581968
+37-70358149
 195735955545
 CustomButtonTheme.xaml;MainWindow.xaml;View\CourseAdd.xaml;View\CourseInfo.xaml;View\CourseInfoStud.xaml;View\CourseSearch.xaml;View\CourseSearchStud.xaml;View\Dashboard.xaml;View\LandingPage.xaml;View\LandingPageStud.xaml;View\LoginPage.xaml;View\RegisterPage.xaml;View\StudentInfo.xaml;View\StudentSearch.xaml;View\SubjectAdd.xaml;View\SubjectInfo.xaml;View\SubjectSearch.xaml;View\TeacherInfo.xaml;View\TeacherSearch.xaml;View\UnitAdd.xaml;View\UnitInfo.xaml;View\UnitSearch.xaml;
 
-False
+True
 
